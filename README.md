@@ -9,12 +9,12 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
 
 
 ## Classificação:
-| Item           | Descrição                       |
-| -------------- | ------------------------------- |
-| Gênero Textual | Informativo (IF) - Dissertações |
-| Tipo Textual   | Outros                          |
-| Domínio        | Generalidades ( Educação )      |
-
+| Definição            | Categoria                       |
+| -------------------- | ------------------------------- |
+| Gênero Textual       | Informativo (IF) - Dissertações |
+| Tipo Textual         | Outros                          |
+| Domínio              | Generalidades ( Educação )      |
+| Meio de Distribuição | Internet (IN)                   |
 
 ## Índice:
 
