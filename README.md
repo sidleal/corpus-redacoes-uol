@@ -19,7 +19,7 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
 ## Índice:
 
 | Arquivo                      | Bytes    | Palavras  | Redacoes | Tema                                                   |
-| ---------------------------- | -------- | --------- | -------- | ------------------------------------------------------ |
+| :---                         |     ---: |      ---: |   :---:  | :---                                                   |
 | uoleducacao_redacoes_01.json |  97.070  |  15.174   | 20       | Forma física, corpo perfeito e consumismo              |
 | uoleducacao_redacoes_02.json | 100.778  |  16.066   | 20       | Impeachment: a presidente deve perder o mandato?       |
 | uoleducacao_redacoes_03.json |  91.959  |  14.605   | 20       | Carta-convite: discutir discriminação na escola        |
@@ -35,12 +35,12 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
 ## Estrutura JSON:
 ```
 {
-  "tema": "Título do tem",
+  "tema": "Título do tema.",
   "data": "Data de publicação no formato yyyy-mm-ddThh:mi",
-  "contexto": "Texto introdutório da proposta.",
+  "contexto": "Texto de introdução da proposta.",
   "redacoes": [
   {
-    "titulo": "Título da redação",
+    "titulo": "Título da redação.",
     "nota": <Double de 0.0 a 10.0>,
     "texto": " Texto original da redação, com <BR> demarcando as quebras de linha.",
     "texto_corrigido": "Texto html com as correções efetuadas pelos professores do Uol Educação.",
