@@ -9,11 +9,10 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
 
 
 ## Classificação:
-
+| Item           | Descrição                       |
+| -------------- | ------------------------------- |
 | Gênero Textual | Informativo (IF) - Dissertações |
-| -------------- | ------------------------------- |
 | Tipo Textual   | Outros                          |
-| -------------- | ------------------------------- |
 | Domínio        | Generalidades ( Educação )      |
 
 
@@ -30,8 +29,7 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
 | uoleducacao_redacoes_07.json |  93.310  |  14.949   | 20       | Bandido bom é bandido morto?                           |
 | uoleducacao_redacoes_08.json |  81.079  |  12.789   | 19       | O sucesso vem da escola ou do esforço individual?      |
 | uoleducacao_redacoes_09.json |  86.074  |  13.460   | 20       | Disciplina, ordem e autoridade favorecem a educação?   |
-| ---------------------------- | -------- | --------- | -------- | ------------------------------------------------------ |
-| Total:                       | 824.419  | 129.587   | 179      |                                                        |
+| **Total:**                   | 824.419  | 129.587   | 179      |                                                        |
 
 
 ## Estrutura JSON:
