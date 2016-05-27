@@ -11,16 +11,16 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
 ## Classificação:
 
 | Gênero Textual | Informativo (IF) - Dissertações |
-
+| -------------- | ------------------------------- |
 | Tipo Textual   | Outros                          |
-
+| -------------- | ------------------------------- |
 | Domínio        | Generalidades ( Educação )      |
 
 
 ## Índice:
 
 | Arquivo                      | Bytes    | Palavras  | Redacoes | Tema                                                   |
-
+| ---------------------------- | -------- | --------- | -------- | ------------------------------------------------------ |
 | uoleducacao_redacoes_01.json |  97.070  |  15.174   | 20       | Forma física, corpo perfeito e consumismo              |
 | uoleducacao_redacoes_02.json | 100.778  |  16.066   | 20       | Impeachment: a presidente deve perder o mandato?       |
 | uoleducacao_redacoes_03.json |  91.959  |  14.605   | 20       | Carta-convite: discutir discriminação na escola        |
@@ -30,7 +30,7 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
 | uoleducacao_redacoes_07.json |  93.310  |  14.949   | 20       | Bandido bom é bandido morto?                           |
 | uoleducacao_redacoes_08.json |  81.079  |  12.789   | 19       | O sucesso vem da escola ou do esforço individual?      |
 | uoleducacao_redacoes_09.json |  86.074  |  13.460   | 20       | Disciplina, ordem e autoridade favorecem a educação?   |
-
+| ---------------------------- | -------- | --------- | -------- | ------------------------------------------------------ |
 | Total:                       | 824.419  | 129.587   | 179      |                                                        |
 
 
@@ -43,7 +43,7 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
   "redacoes": [
   {
     "titulo": "Título da redação",
-    "nota": <Double de 0 a 10>,
+    "nota": <Double de 0.0 a 10.0>,
     "texto": " Texto original da redação, com <BR> demarcando as quebras de linha.",
     "texto_corrigido": "Texto html com as correções efetuadas pelos professores do Uol Educação.",
     "analise": "Breve análise dos professores."
@@ -51,5 +51,6 @@ FONTE: http://educacao.uol.com.br/bancoderedacoes/
   {
    ...
    }
+  ]
 }
 ```
