@@ -18,7 +18,8 @@ public class CrawOne {
 //        Document doc = Jsoup.connect("http://educacao.uol.com.br/bancoderedacoes/propostas/mariana-fatalidade-ou-negligencia.htm").get();
 //        Document doc = Jsoup.connect("http://educacao.uol.com.br/bancoderedacoes/propostas/bandido-bom-e-bandido-morto.htm").get();
 //        Document doc = Jsoup.connect("http://educacao.uol.com.br/bancoderedacoes/propostas/o-sucesso-vem-da-escola-ou-do-esforco-individual.htm").get();
-        Document doc = Jsoup.connect("http://educacao.uol.com.br/bancoderedacoes/propostas/disciplina-ordem-e-autoridade-favorecem-a-educacao.htm").get();
+//        Document doc = Jsoup.connect("http://educacao.uol.com.br/bancoderedacoes/propostas/disciplina-ordem-e-autoridade-favorecem-a-educacao.htm").get();
+        Document doc = Jsoup.connect("http://educacao.uol.com.br/bancoderedacoes/propostas/politica-x-ciencia-a-pilula-do-cancer.htm").get();
 
 
         Elements h1 = doc.select("h1");
@@ -89,6 +90,11 @@ public class CrawOne {
         }
         json.append("}\n");
 
-        System.out.println(json);
+        String res = json.toString();
+        res = res.replaceAll("\"", "´");
+        res = res.replaceAll("'", "\"");
+        res = res.replaceAll("´", "'");
+
+        System.out.println(res);
     }
 }
